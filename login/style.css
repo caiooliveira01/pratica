@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2d4c8;
+}
+
+.container {
+    margin-top: 8em;
+    width: 400px;
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    -webkit-box-shadow: 7px 10px 22px -12px rgba(0,0,0,0.63);
+    -moz-box-shadow: 7px 10px 22px -12px rgba(0,0,0,0.63);
+    box-shadow: 7px 10px 22px -12px rgba(0,0,0,0.63);
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    line-height: 60px;
+    border: 10px solid #4d3278;
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+label, .inputs, button {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 15px;
+    /* font-weight: 600; */
+    color: rgb(77, 77, 77);
+}
+
+.inputs {
+    outline: none;
+    border: 0;
+    padding: 8px;
+    background-color: #EEE;
+}
+
+button {
+    padding: 8px;
+    border: 0;
+    color: #FFF;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+    border-radius: 10px;
+}
