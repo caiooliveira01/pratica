@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28536B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* Table em si */
+.tablet {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+    margin: 10px auto;
+    border: 16px solid #000;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+}
+
+/* Linha horizontal de cima */
+.tablet::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    border-radius: 10px;
+}
+
+/* Círculo de baixo */
+.tablet::after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.content {
+    background-color: #5C946E; /* Mudar */
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
+section {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000066;
+} 
+
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#resultado {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#foto {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #eaeaea,
+            inset -4px -4px 12px #ffffff;
+}
