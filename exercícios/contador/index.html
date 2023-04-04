@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="smartphone">
+        <div class="content">
+            <h1>Contador</h1>
+
+            <section>
+                <p>
+                    Início: <input type="number" id="inicio">
+                </p>
+                <p>
+                    Fim: <input type="number" id="fim">
+                </p>
+                <p>
+                    Passo: <input type="number" id="passo" min="0">
+                </p>
+
+                <button id="btn" onclick="contagem()">Contar</button>
+
+                <p id="resultado"></p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
