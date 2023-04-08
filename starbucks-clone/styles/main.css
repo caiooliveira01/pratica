@@ -1,0 +1,195 @@
+main {
+    padding: 32px 40px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 2px 2px 0px, rgba(0, 0, 0, 0.07) 0px 0px 2px 0px;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    margin-bottom: 32px;
+    height: 625px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.section-rewards {
+    height: 280px;
+    max-width: 100%;
+}
+
+.rewards {
+    max-width: 100%;
+}
+
+.text {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4e9e2;
+    padding: 32px 48px;
+    color: #1e3932;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.promotion {
+    font-size: 19px;
+}
+
+.section-btn {
+    margin-bottom: 12px;
+    background-color: transparent;
+    color: #1e3932;
+    font-size: 16px;
+    border: 1px solid #1e3932;
+    font-weight: 600;
+    text-align: center;
+    padding: 7px 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 32px;
+}
+
+.btn-rewards:hover {
+    background-color: #c1d7d0;
+    transition: all 0.2s ease 0s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.section-easter {
+    flex-direction: row-reverse;
+    height: 625px;
+}
+
+.card {
+    max-width: 100%;
+}
+
+.section-easter .text {
+    background-color: #f6bfd9;
+    justify-content: center;
+    width: 720px;
+}
+
+.section-easter .title {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.section-easter .promotion {
+    font-size: 24px;
+    height: 72px;
+}
+
+.section-easter .section-btn {
+    margin-top: 32px;
+}
+
+.btn-easter:hover {
+    background-color: #e7b3cb;
+    transition: all 0.2s ease 0s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.section-drink {
+    height: 625px;
+}
+
+.drink {
+    max-width: 100%;
+}
+
+.section-drink .text {
+    background-color: #a0c292;
+    justify-content: center;
+    width: 720px;
+}
+
+.section-drink .title {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.section-drink .promotion {
+    font-size: 24px;
+    height: 72px;
+}
+
+.section-drink .section-btn {
+    margin-top: 32px;
+}
+
+.btn-drink:hover {
+    background-color: #93B488;
+    transition: all 0.2s ease 0s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.section-breakfast {
+    flex-direction: row-reverse;
+    height: 625px;
+    background-color: #d4e9e2;
+}
+
+.breakfast {
+    max-width: 100%;
+}
+
+.section-breakfast .text {
+    background-color: #d4e9e2;
+    justify-content: center;
+    width: 720px;
+}
+
+.section-breakfast .title {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.section-breakfast .promotion {
+    font-size: 24px;
+    height: 108px;
+}   
+
+.section-breakfast .section-btn {
+    margin-top: 32px;
+}
+
+.btn-breakfast:hover {
+    background-color: #C1D7D0;
+    transition: all 0.2s ease 0s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.atention {
+    height: 89.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.restrictions {
+    margin-bottom: 32px;
+}
+
+.restrictions  a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.restrictions a:hover {
+    text-decoration: none;
+}
