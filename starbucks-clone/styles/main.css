@@ -40,6 +40,8 @@ section {
 
 .promotion {
     font-size: 19px;
+    width: 517px;
+    height: 72px;
 }
 
 .section-btn {
@@ -63,7 +65,7 @@ section {
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.section-easter {
+.section-espresso {
     flex-direction: row-reverse;
     height: 625px;
 }
@@ -72,27 +74,27 @@ section {
     max-width: 100%;
 }
 
-.section-easter .text {
+.section-espresso .text {
     background-color: #f6bfd9;
     justify-content: center;
     width: 720px;
 }
 
-.section-easter .title {
+.section-espresso .title {
     font-size: 50px;
     letter-spacing: 2px;
 }
 
-.section-easter .promotion {
+.section-espresso .promotion {
     font-size: 24px;
-    height: 72px;
+    height: 108px;
 }
 
-.section-easter .section-btn {
+.section-espresso .section-btn {
     margin-top: 32px;
 }
 
-.btn-easter:hover {
+.btn-espresso:hover {
     background-color: #e7b3cb;
     transition: all 0.2s ease 0s;
 }
@@ -108,7 +110,7 @@ section {
 }
 
 .section-drink .text {
-    background-color: #a0c292;
+    background-color: #FFF4D4;
     justify-content: center;
     width: 720px;
 }
@@ -128,7 +130,7 @@ section {
 }
 
 .btn-drink:hover {
-    background-color: #93B488;
+    background-color: #E8E1C3;
     transition: all 0.2s ease 0s;
 }
 
