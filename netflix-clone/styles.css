@@ -12,41 +12,41 @@ body {
 
 .bg-img {
     height: 98vh;
-    width: 100vw;
+    width: 100%;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.307) 0%, rgba(0, 0, 0, 0.8) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/828332cb-06fb-4098-bf3d-2934bf43dfc4/BR-pt-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 86px;
-    width: 1170px;
+    width: 1170px; */
     max-width: calc(83.3333% - 96px);
-    margin: 0 175px;
-    gap: 24px;
+    /* margin: 0 auto;
+    gap: 24px; */
 }
 
-.logo {
+/* .logo {
     height: 40px;
     margin-right: auto;
-}
+} */
 
-.select {
+/* .select {
     font-size: 16px;
     height: 32px;
     width: 144px;
-    /* padding: 6px 36px; */
+    padding: 6px 36px;
     background-color: #191919b3;
     color: #FFF;
     border: 0.5px solid #FFF;
     border-radius: 4px;
     min-height: auto;
-}
+} */
 
-.btn-head {
+/* .btn-head {
     background-color: #E50914;
     font-size: 14px;
     font-weight: 500;
@@ -54,7 +54,7 @@ body {
     color: #FFF;
     border: 0;
     border-radius: 4px;
-    /* height: 32px; */
+    height: 32px;
     width: 70.15px;
     text-align: center;
 }
@@ -62,4 +62,63 @@ body {
 .btn-head:hover {
     background-color: #C11119;
     cursor: pointer;
+} */
+
+.email::placeholder {
+    font-size: 16px;
+}
+
+main {
+    margin-top: 12px;
+    background-color: #000;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 72px 0;
+    background-color: #232323;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    margin-inline: auto;
+}
+
+.img {
+    height: 474px;
+    width: 579px;
+}
+
+.area .text {
+    height: 192.8px;
+    width: 579px;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area .text .title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.area .text p {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.sct-1 {
+    margin-top: -72px;
+} /* GAMBIARRA */
+
+.sct-2, .sct-4 {
+    flex-direction: row-reverse;
 }
