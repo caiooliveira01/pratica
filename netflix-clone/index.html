@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css' integrity='sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==' crossorigin='anonymous'/>
     <title>Netflix</title>
 </head>
 <body>
     <header>
         <div class="bg-img">
-            <div class="header flex items-center justify-end h-[86px] gap-6 mx-auto px-12">
+            <div class="header flex items-center justify-end h-[86px] w-[1170px] gap-6 mx-auto">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt="#" class="logo h-10 mr-auto">
                 <select class="select text-base h-8 w-36 bg-[#191919b3] text-[#FFF] rounded border">
                     <option>Português</option>
@@ -21,61 +22,76 @@
                     Entrar
                 </a>
             </div>
-            <div class="hero ml-[148px] my-[91px] w-[917.4px]">
-                <h1 class="text-[64px] font-black ">
-                    Filmes, séries e muito mais. 
-                    Sem limites.
+            <div class="hero text-center my-[190px] mx-auto h-[238.8px] w-[951.4px]">
+                <h1 class="text-5xl font-black h-[64.8px]">
+                    Filmes, séries e muito mais. Sem limites.
                 </h1>
-                <p class="text-2xl font-medium my-[14px] mb-[28px]">Assista onde quiser. Cancele quando quiser.</p>
+                <p class="text-2xl">Assista onde quiser. Cancele quando quiser.</p>
         
-                <p class="text-xl mb-[14px]">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                <input type="text" class="email text-2xl bg-[#191919b3] rounded border h-6 w-[376.5px] py-7 px-4" placeholder="Email">
-                <button class="text-2xl font-medium bg-[#E50914] py-3 px-5 rounded border-0 ml-2 hover:bg-[#C11119] cursor-pointer">
-                    Vamos Lá >
-                </button>
+                <form class="mt-4">
+                    <p class="text-xl/[30px] mb-4">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                    <input type="text" class="email text-2xl/[24px] bg-[#191919b3] rounded border h-6 w-[376.5px] py-7 px-4" placeholder="Email">
+                    <button class="text-2xl font-medium bg-[#E50914] py-3 px-5 rounded border-0 ml-2 hover:bg-[#C11119] cursor-pointer">
+                        Vamos Lá >
+                    </button>
+                </form>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="area sct-1">
-            <div class="text">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png" alt="#">
-                <p class="title">Aproveite na TV.</p>
-                <p>
-                    Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.
-                </p>
-            </div>
-        </section>
+        <section>
+            <section class="area sct-1">
+                <div class="text">
+                    <h2 class="title">Aproveite na TV.</h2>
+                    <p>
+                        Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.
+                    </p>
+                </div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="#">
+            </section>
 
-        <section class="area sct-2">
-            <div class="text">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png" alt="#">
-                <p class="title">Assista quando quiser.</p>
-                <p>
-                    Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.
-                </p>
-            </div>
-        </section>
+            <section class="area sct-2">
+                <div class="text">
+                    <h2 class="title">Assista quando quiser.</h2>
+                    <p>
+                        Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.
+                    </p>
+                </div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="#">
+            </section>
 
-        <section class="area sct-3">
-            <div class="text">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/pt-BR.png" alt="#" class="img">
-                <p class="title">Crie perfis para crianças.</p>
-                <p>
-                    Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.
-                </p>
-            </div>
-        </section>
+            <section class="area sct-3">
+                <div class="text">
+                    <h2 class="title">Crie perfis para crianças.</h2>
+                    <p>
+                        Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.
+                    </p>
+                </div>
+                <img src="https://occ-0-1319-1740.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABWGB3YOpSh2wA7OOZQYD-MkalQ0oJEy-YEEpoPKAIenLtZf5lKeERDdKj-u6WnZx9wx_QuiDVHkGM_1QmVQt9yxM7mKjevBNHKFz.png?r=1b8" alt="#" class="img">
+            </section>
 
-        <section class="area sct-4">
-            <div class="text">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/pt-BR.png" alt="#">
-                <p class="title">Baixe séries para assistir offline.</p>
-                <p>
-                    Disponíveis somente em planos sem anúncios.
-                </p>
-            </div>
+            <section class="area sct-4">
+                <div class="text">
+                    <h2 class="title">Baixe séries para assistir offline.</h2>
+                    <p>
+                        Disponíveis somente em planos sem anúncios.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="#">
+                    <div class="img-st">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" class="h-[72px]">
+                        <div>
+                            <p class="text-base font-medium ">Stranger Things</p>
+                            <p class="text-sm text-[#0071EB] font-light">Download em andamento...</p>
+                        </div>
+                        <i class="fa-solid fa-download text-3xl "></i>
+                    </div>
+                </div>
+
+                
+            </section>
         </section>
     </main>
 </body>
