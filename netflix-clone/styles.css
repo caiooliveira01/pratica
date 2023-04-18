@@ -88,6 +88,10 @@ section {
     flex-direction: row-reverse;
 }
 
+.sct-4 {
+    margin-bottom: -62px;
+} /* GAMBIARRA */
+
 .img-st {
     background-color: #000;
     /* height: 76px; */
@@ -110,4 +114,40 @@ section {
 
 .fa-download {
     animation: color 5s infinite;
+}
+
+.btn-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    width: 77%;
+    background-color: #2D2D2D;
+    font-size: 24px;
+}
+
+.fa-plus {
+    font-size: 40px;
+}
+
+.btn-f:hover {
+    background-color: #4E4E4E;
+    transition: all 0.1s ease 0s;
+}
+
+footer {
+    width: 100%;
+    padding-top: 8px;
+    background-color: #232323;
+}
+
+.footer-black {
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.content-footer {
+    width: 77%;
+    margin-inline: auto;
+    padding: 72px 0;
 }
