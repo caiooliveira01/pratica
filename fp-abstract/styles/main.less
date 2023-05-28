@@ -1,0 +1,143 @@
+@black: #000;
+@white: #FFF;
+@blue: #4C5FD5;
+@light: #DADBF1;
+
+main {
+    padding: 100px 65px;
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .division {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        min-height: 115px;
+        width: 511px;
+        padding-right: 15px;
+    
+        .img-container {
+            height: 188px;
+
+            .img {
+                height: 73px;
+            }
+        }
+
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            h4 {
+                font-size: 24px;
+                line-height: 28px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 24px;
+                line-height: 32px;
+                margin-bottom: 4px;
+            }
+
+            a {
+                color: @blue;
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: 180px 60px;
+        
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            column-gap: 0px;
+
+            .division {
+                height: 312px;
+                width: 296px;
+
+                .img-container {
+                    height: 312px;
+                }
+
+                .text {
+                    height: 312px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1100px) {
+    main {
+        padding: 180px 120px;
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            column-gap: 0px;
+
+            .division {
+                height: 220px;
+                width: 433px;
+
+                .img-container {
+                    height: 220px;
+
+                    .img {
+                        height: 79px;
+                    }
+                }
+
+                .text {
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    main {
+        padding: 180px;
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            column-gap: 0px;
+
+            .division {
+                height: 188px;
+                width: 599px;
+
+                .img-container {
+                    height: 188px;
+
+                    .img {
+                        height: 89px;
+                    }
+                }
+
+                .text {
+                    height: 188px;
+                }
+            }
+        }
+    }
+}

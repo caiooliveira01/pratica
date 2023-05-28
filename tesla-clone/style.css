@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
     display: none;
 }
 
-/* Ao menos que a tela seja maior que 768px */
+/* Ao menos que a tela seja maior que 1200px */
 @media (min-width: 1200px) {
     .desktop {
         display: initial;
@@ -62,6 +63,7 @@ header .right {
 
 section {
     height: 100vh;
+    scroll-snap-align: start;
     background-size: cover;
     background-position: center center;
 }
@@ -126,6 +128,7 @@ aside {
     padding: 80px 40px;
     z-index: 4;
     height: 100vh;
+    overflow-y: auto;
 }
 
 aside.active {
